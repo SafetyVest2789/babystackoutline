@@ -1,6 +1,7 @@
 # babystackoutline
 How to set up your back end
-I am testing and using new methods and not older ones
+I am testing and using new methods
+Older JS tutorials and documentation used body parser, --save flags, and node 14 components
 
 
 
