@@ -21,6 +21,16 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
+app.use(cors())
+
+app.get('/', async(request, response) =>{
+    try {
+        response.render('index.ejs')
+    } catch (error) {
+        response.status(500).send({message: error.message})
+    }
+})
+
 
 
     //PORT = 8000
