@@ -23,6 +23,7 @@ Express, doting, cors, mongodb, ejs, nodemon )--save-dev)
 3. Declare variables
 
 4. Connect to MongoDB - add connection string to .env file
+4A. ------ADD .env file to gitignore
 
 5. Create port
 
